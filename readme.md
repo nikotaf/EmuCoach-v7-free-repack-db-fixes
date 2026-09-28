@@ -50,3 +50,7 @@ The structure relies on the Map/Area of the issues. Issues could be:
 	- (w) world (w###/MapName/AreaName)
 
 Some generic issues, like flying/submerged mineral/herb nodes, portals/area triggers not working, would be stated as world fixes.
+
+Disclaimer
+--
+I will not hold any responsibility for any loss or damage you do with the files provided here. It's up to you to analyze them, and backup your database, so you can rollback to whatever you had. If you can not do that, you are advised to ask for help, or educate yourself.
