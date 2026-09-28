@@ -1,4 +1,4 @@
-EmuCoach 7.0 free WoW emulation
+EmuCoach 7.0 free WoW emulation database fixes
 ==
 This repository is not related by any means with the creators and/or distributors of the EmuCoach project.
 
