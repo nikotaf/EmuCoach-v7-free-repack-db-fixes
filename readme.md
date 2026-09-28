@@ -43,11 +43,11 @@ Mostly the fixes focus on quest lines. So the majority of the database fixes, ar
 
 The structure relies on the Map/Area of the issues. Issues could be:
 
-	- (c) creature (c###/CreatureName)
-	- (g) game object (g###/GameObjectName)
-	- (i) item (i###/ItemName)
-	- (q) quest (q###/QuestTitle AreaName|ZoneName)
-	- (w) world (w###/MapName/AreaName)
+**For quests**:
+![](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) MapId MapName
+	![](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) AreaId AreaName
+		![](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) ZoneId ZoneName
+			 ![](https://icons.iconarchive.com/icons/bootstrap/bootstrap/16/Bootstrap-filetype-sql-icon.png) QuestId Quest title.sql
 
 Some generic issues, like flying/submerged mineral/herb nodes, portals/area triggers not working, would be stated as world fixes.
 
