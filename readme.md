@@ -43,15 +43,15 @@ Mostly the fixes focus on quest lines. So the majority of the database fixes, ar
 
 The structure relies on the Map/Area/Zone of the issues. For instance, for quests the folder structure is:
 
-![Folder](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) MapId MapName
-┗![Folder](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) AreaId AreaName
-    ┗![Folder](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) ZoneId ZoneName
+![Folder](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) MapId MapName/
+┗![Folder](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) AreaId AreaName/
+    ┗![Folder](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) ZoneId ZoneName/
         ┗ ![SQL file](https://icons.iconarchive.com/icons/bootstrap/bootstrap/16/Bootstrap-filetype-sql-icon.png) QuestId Quest title.sql
 
 Some generic issues, like flying/submerged mineral/herb nodes, portals/area triggers not working, would be stated as world fixes:
 
-![Folder](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) MapId MapName
-┗![Folder](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) AreaId AreaName
+![Folder](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) MapId MapName/
+┗![Folder](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) AreaId AreaName/
     ┗ ![SQL file](https://icons.iconarchive.com/icons/bootstrap/bootstrap/16/Bootstrap-filetype-sql-icon.png) World fixes.sql
 
 Server issues
