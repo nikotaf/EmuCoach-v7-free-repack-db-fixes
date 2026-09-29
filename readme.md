@@ -41,15 +41,30 @@ How to find what
 --
 Mostly the fixes focus on quest lines. So the majority of the database fixes, are concentrated on fixing anything involved (npcs, game objects, dialogs, loot tables, scripts, conditions etc) for completing quest upto turn-ins.
 
-The structure relies on the Map/Area of the issues. Issues could be:
+The structure relies on the Map/Area/Zone of the issues. For instance, for quests the folder structure is:
 
-**For quests**:
-![](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) MapId MapName/
-	![](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) AreaId AreaName/
-		![](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) ZoneId ZoneName/
-			 ![](https://icons.iconarchive.com/icons/bootstrap/bootstrap/16/Bootstrap-filetype-sql-icon.png) QuestId Quest title.sql
+![Folder](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) MapId MapName
+┗![Folder](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) AreaId AreaName
+    ┗![Folder](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) ZoneId ZoneName
+        ┗ ![SQL file](https://icons.iconarchive.com/icons/bootstrap/bootstrap/16/Bootstrap-filetype-sql-icon.png) QuestId Quest title.sql
 
-Some generic issues, like flying/submerged mineral/herb nodes, portals/area triggers not working, would be stated as world fixes.
+Some generic issues, like flying/submerged mineral/herb nodes, portals/area triggers not working, would be stated as world fixes:
+
+![Folder](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) MapId MapName
+┗![Folder](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) AreaId AreaName
+    ┗ ![SQL file](https://icons.iconarchive.com/icons/bootstrap/bootstrap/16/Bootstrap-filetype-sql-icon.png) World fixes.sql
+
+Server issues
+--
+The forementioned server, has lots of issues, that are core relevant, intentionaly or bad coded:
+
+- Area triggers are missing or not triggering:
+	+ 503 Stockades Instance exit
+	+ 6522 Maw of the Void
+
+- Spell summoned game object by npc death are not interactable
+	+ q12855 Sniffing Out the Perpetrator
+	+ q28058 Look at the Size of It!
 
 Disclaimer
 --
