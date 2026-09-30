@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=177, `map`=1, `minSkill`=1, `minLevel`=25, `position_x`=2485, `position_y`=1468, `position_z`=262, `enable`=1, `comment`='Stonetalon Peak' WHERE `id`=31;
