@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=10, `map`=0, `minSkill`=1, `minLevel`=20, `position_x`=-2848, `position_y`=-2257, `position_z`=33, `enable`=1, `comment`='Ironbeard\'s Tomb' WHERE `id`=2;
