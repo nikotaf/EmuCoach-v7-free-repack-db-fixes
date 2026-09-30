@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=9, `map`=0, `minSkill`=1, `minLevel`=10, `position_x`=-5653, `position_y`=-3896, `position_z`=322, `enable`=1, `comment`='Ironband\'s Excavation Site' WHERE `id`=1;
