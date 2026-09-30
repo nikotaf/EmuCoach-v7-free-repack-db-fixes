@@ -32,7 +32,7 @@ and add following lines
 > 
 > set patchlist localhost
 
-Then you can start web server Apache (or not, it is not actualy needed), you **must** start database server SQL, since it is the heart of the server. Those two can be found inside Server folder of the emulator.
+Then you can start web server Apache (or not, it is not actualy needed), you **must** start database server SQL, since it is the heart of the server. Those two, can be found inside Server folder of the emulator.
 
 The emulator itself resides inside the Release folder. Follow the instructions that come with the software to adjust options and operate. The above lines will allow server to operate localy, where WoW client resides.
 
@@ -44,30 +44,35 @@ Mostly the fixes focus on quest lines. So the majority of the database fixes, ar
 
 The structure relies on the Map/Area/Zone of the issues. For instance, for quests the folder structure is:
 
-> ![Folder](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) MapId MapName
-> ┗![Folder](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) AreaId AreaName
- >     ┗![Folder](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) ZoneId ZoneName
-  >        ┗ ![SQL file](https://icons.iconarchive.com/icons/bootstrap/bootstrap/16/Bootstrap-filetype-sql-icon.png) QuestId Quest title.sql
+> ![Folder](https://camo.githubusercontent.com/127644b6fa1e1001af4a1384505f802268d789b21536e31116ee0cffaa97aee2/68747470733a2f2f7777772e69636f6e7364622e636f6d2f69636f6e732f646f776e6c6f61642f69636f6e2d736574732f637573746f6d2d636f6c6f722f666f6c6465722d31362e706e67) MapId MapName
+> ┗![Folder](https://camo.githubusercontent.com/127644b6fa1e1001af4a1384505f802268d789b21536e31116ee0cffaa97aee2/68747470733a2f2f7777772e69636f6e7364622e636f6d2f69636f6e732f646f776e6c6f61642f69636f6e2d736574732f637573746f6d2d636f6c6f722f666f6c6465722d31362e706e67) AreaId AreaName
+ >     ┗![Folder](https://camo.githubusercontent.com/127644b6fa1e1001af4a1384505f802268d789b21536e31116ee0cffaa97aee2/68747470733a2f2f7777772e69636f6e7364622e636f6d2f69636f6e732f646f776e6c6f61642f69636f6e2d736574732f637573746f6d2d636f6c6f722f666f6c6465722d31362e706e67) ZoneId ZoneName
+  >        ┗ ![SQL file](https://camo.githubusercontent.com/ac7d5a6b732cdba5b7ff1c33aa4fe55e912aadc9c3312370c1cc5de3af30b7a0/68747470733a2f2f69636f6e732e69636f6e617263686976652e636f6d2f69636f6e732f626f6f7473747261702f626f6f7473747261702f31362f426f6f7473747261702d66696c65747970652d73716c2d69636f6e2e706e67) QuestId Quest title.sql
 
-Some generic issues, like flying/submerged mineral/herb nodes, portals/area triggers not working, npcs missing, loot issues, would be stated as world fixes:
+and denotes the location of the quest giver.
 
-> ![Folder](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) MapId MapName
->┗![Folder](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) AreaId AreaName
->      ┗![Folder](https://www.iconsdb.com/icons/download/icon-sets/custom-color/folder-16.png) ZoneId ZoneName
->          ┗ ![SQL file](https://icons.iconarchive.com/icons/bootstrap/bootstrap/16/Bootstrap-filetype-sql-icon.png) c|g|i|at# Name.sql
+Some generic issues, like flying/submerged mineral/herb nodes, portals/area triggers not working, npcs missing, loot table issues, would be stated as world fixes:
 
-Server issues
+> ![Folder](https://camo.githubusercontent.com/127644b6fa1e1001af4a1384505f802268d789b21536e31116ee0cffaa97aee2/68747470733a2f2f7777772e69636f6e7364622e636f6d2f69636f6e732f646f776e6c6f61642f69636f6e2d736574732f637573746f6d2d636f6c6f722f666f6c6465722d31362e706e67) MapId MapName
+>┗![Folder](https://camo.githubusercontent.com/127644b6fa1e1001af4a1384505f802268d789b21536e31116ee0cffaa97aee2/68747470733a2f2f7777772e69636f6e7364622e636f6d2f69636f6e732f646f776e6c6f61642f69636f6e2d736574732f637573746f6d2d636f6c6f722f666f6c6465722d31362e706e67) AreaId AreaName
+>      ┗![Folder](https://camo.githubusercontent.com/127644b6fa1e1001af4a1384505f802268d789b21536e31116ee0cffaa97aee2/68747470733a2f2f7777772e69636f6e7364622e636f6d2f69636f6e732f646f776e6c6f61642f69636f6e2d736574732f637573746f6d2d636f6c6f722f666f6c6465722d31362e706e67) ZoneId ZoneName
+>          ┗ ![SQL file](https://camo.githubusercontent.com/ac7d5a6b732cdba5b7ff1c33aa4fe55e912aadc9c3312370c1cc5de3af30b7a0/68747470733a2f2f69636f6e732e69636f6e617263686976652e636f6d2f69636f6e732f626f6f7473747261702f626f6f7473747261702f31362f426f6f7473747261702d66696c65747970652d73716c2d69636f6e2e706e67) **c**|**g**|**i**|**l**|**sp**|**at**#entry Name.sql
+
+Known server issues
 --
 The forementioned server, has lots of issues, that are core relevant, intentionaly or bad coded:
 
 - Area triggers are missing or not triggering:
-	+ at503 Stockades Instance exit
-	+ at6522 Maw of the Void
+	+ **at**288 Uldaman front exit
+	+ **at**503 Stockades Instance exit
+	+ **at**882 Uldaman back exit
+	+ **at**1472 Blackrock Depths exit
+	+ **at**6522 Maw of the Void
 
-- Spell summoned game object by npc death are not interactable
-	+ q12855 Sniffing Out the Perpetrator
-	+ q28058 Look at the Size of It!
-	+ 26925_27164 Araj the Summoner
+- Spell summoned game object by npc's death are not interactable
+	+ **q**12855 Sniffing Out the Perpetrator
+	+ **q**28058 Look at the Size of It!
+	+ **q**26925|**q**27164 Araj the Summoner
 
 Disclaimer
 --
