@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=169, `map`=1, `minSkill`=1, `minLevel`=20, `position_x`=3950, `position_y`=816, `position_z`=5, `enable`=1, `comment`='Zoram Strand Digsite' WHERE `id`=27;
