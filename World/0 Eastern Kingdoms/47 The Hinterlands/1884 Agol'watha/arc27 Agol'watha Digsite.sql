@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=27, `map`=0, `minSkill`=1, `minLevel`=30, `position_x`=426, `position_y`=-3369, `position_z`=119, `enable`=1, `comment`='Agol\'watha Digsite' WHERE `id`=15;
