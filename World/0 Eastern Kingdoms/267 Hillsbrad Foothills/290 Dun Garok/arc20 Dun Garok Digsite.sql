@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=20, `map`=0, `minSkill`=1, `minLevel`=20, `position_x`=-1268, `position_y`=-1153, `position_z`=40, `enable`=1, `comment`='Dun Garok Digsite' WHERE `id`=8;
