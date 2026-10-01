@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=23, `map`=0, `minSkill`=1, `minLevel`=30, `position_x`=-351, `position_y`=-2888, `position_z`=71, `enable`=1, `comment`='Shadra\'Alor Digsite' WHERE `id`=11;
