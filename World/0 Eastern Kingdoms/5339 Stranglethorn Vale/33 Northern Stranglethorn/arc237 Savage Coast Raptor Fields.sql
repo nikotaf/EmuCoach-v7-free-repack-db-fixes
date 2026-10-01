@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=237, `map`=0, `minSkill`=1, `minLevel`=25, `position_x`=-12180, `position_y`=243, `position_z`=3, `enable`=1, `comment`='Savage Coast Raptor Fields' WHERE `id`=61;
