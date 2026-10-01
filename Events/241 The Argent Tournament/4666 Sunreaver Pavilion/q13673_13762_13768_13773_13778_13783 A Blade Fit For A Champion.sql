@@ -9,15 +9,15 @@ INSERT INTO `pool_template` (`entry`, `max_limit`, `description`) VALUES
 UPDATE `creature` SET `spawndist`= 5, `MovementType`= 1 WHERE `guid` BETWEEN 149938 AND 149949 AND `id`= 33211;
 UPDATE `creature` SET `id`= 33224 WHERE `guid` IN (149939,149941,149943,149945,149948,149949) AND `id`=33211;
 INSERT INTO `pool_creature` (`guid`, `pool_entry`, `chance`, `description`) VALUES
-	(149938, 70002, 90, 'Ashwood Lake - Lake Frog Node 1'),
-	(149939, 70002, 10, 'Ashwood Lake - Lake Frog Node 1'),
-	(149940, 70003, 90, 'Ashwood Lake - Lake Frog Node 2'),
-	(149941, 70003, 10, 'Ashwood Lake - Lake Frog Node 2'),
-	(149942, 70004, 90, 'Ashwood Lake - Lake Frog Node 3'),
-	(149943, 70004, 10, 'Ashwood Lake - Lake Frog Node 3'),
-	(149944, 70005, 90, 'Ashwood Lake - Lake Frog Node 4'),
-	(149945, 70005, 10, 'Ashwood Lake - Lake Frog Node 4'),
-	(149946, 70006, 90, 'Ashwood Lake - Lake Frog Node 5'),
-	(149947, 70007, 90, 'Ashwood Lake - Lake Frog Node 6'),
-	(149948, 70006, 10, 'Ashwood Lake - Lake Frog Node 5'),
-	(149949, 70007, 10, 'Ashwood Lake - Lake Frog Node 6');
+	(149938, 70002, 0, 'Ashwood Lake - Lake Frog Node 1'),
+	(149939, 70002, 0, 'Ashwood Lake - Lake Frog Node 1'),
+	(149940, 70003, 0, 'Ashwood Lake - Lake Frog Node 2'),
+	(149941, 70003, 0, 'Ashwood Lake - Lake Frog Node 2'),
+	(149942, 70004, 0, 'Ashwood Lake - Lake Frog Node 3'),
+	(149943, 70004, 0, 'Ashwood Lake - Lake Frog Node 3'),
+	(149944, 70005, 0, 'Ashwood Lake - Lake Frog Node 4'),
+	(149945, 70005, 0, 'Ashwood Lake - Lake Frog Node 4'),
+	(149946, 70006, 0, 'Ashwood Lake - Lake Frog Node 5'),
+	(149947, 70007, 0, 'Ashwood Lake - Lake Frog Node 6'),
+	(149948, 70006, 0, 'Ashwood Lake - Lake Frog Node 5'),
+	(149949, 70007, 0, 'Ashwood Lake - Lake Frog Node 6');

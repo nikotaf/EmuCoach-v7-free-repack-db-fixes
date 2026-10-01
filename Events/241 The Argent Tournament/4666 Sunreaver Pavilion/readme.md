@@ -1,0 +1,1 @@
+Some fixes apply to alliance quests to.
