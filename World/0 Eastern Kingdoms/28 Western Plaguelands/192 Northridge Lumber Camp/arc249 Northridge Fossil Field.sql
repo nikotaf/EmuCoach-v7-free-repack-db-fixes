@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=249, `map`=0, `minSkill`=1, `minLevel`=35, `position_x`=2352, `position_y`=-1607, `position_z`=105, `enable`=1, `comment`='Northridge Fossil Field' WHERE `id`=67;
