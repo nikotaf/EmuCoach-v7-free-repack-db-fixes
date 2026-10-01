@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=239, `map`=0, `minSkill`=1, `minLevel`=30, `position_x`=-13656, `position_y`=-296, `position_z`=8, `enable`=1, `comment`='Ruins of Aboraz' WHERE `id`=62;
