@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=251, `map`=0, `minSkill`=1, `minLevel`=35, `position_x`=1243, `position_y`=-1029, `position_z`=64, `enable`=1, `comment`='Andorhal Fossil Bank' WHERE `id`=68;
