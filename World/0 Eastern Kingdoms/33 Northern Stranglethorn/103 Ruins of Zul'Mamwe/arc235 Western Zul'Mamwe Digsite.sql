@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=235, `map`=0, `minSkill`=1, `minLevel`=25, `position_x`=-12980, `position_y`=-735, `position_z`=55, `enable`=1, `comment`='Western Zul\'Mamwe Digsite' WHERE `id`=60;
