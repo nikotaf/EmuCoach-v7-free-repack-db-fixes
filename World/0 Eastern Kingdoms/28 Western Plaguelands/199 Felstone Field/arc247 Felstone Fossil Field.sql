@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=247, `map`=0, `minSkill`=1, `minLevel`=35, `position_x`=1735, `position_y`=-1167, `position_z`=59, `enable`=1, `comment`='Felstone Fossil Field' WHERE `id`=66;
