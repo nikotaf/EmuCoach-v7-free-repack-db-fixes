@@ -1,0 +1,1 @@
+UPDATE `research_sites` SET `entry`=213, `map`=0, `minSkill`=1, `minLevel`=49, `position_x`=-7757, `position_y`=-2154, `position_z`=133, `enable`=1, `comment`='Eastern Ruins of Thaurissan' WHERE `id`=49;
