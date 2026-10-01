@@ -1,1 +1,1 @@
-
+UPDATE `creature_template` SET `npcflag`|= 1, `dynamicflags`= 33 WHERE `entry`=26477;
