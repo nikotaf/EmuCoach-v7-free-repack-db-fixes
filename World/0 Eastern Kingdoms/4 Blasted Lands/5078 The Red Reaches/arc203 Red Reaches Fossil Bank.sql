@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=203, `map`=0, `minSkill`=1, `minLevel`=54, `position_x`=-12516, `position_y`=-3599, `position_z`=6, `enable`=1, `comment`='Red Reaches Fossil Bank' WHERE `id`=44;
