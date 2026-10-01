@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=215, `map`=0, `minSkill`=1, `minLevel`=49, `position_x`=-8129, `position_y`=-2957, `position_z`=134, `enable`=1, `comment`='Terror Wing Fossil Field' WHERE `id`=50;
