@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=223, `map`=0, `minSkill`=1, `minLevel`=25, `position_x`=-11702, `position_y`=634, `position_z`=50, `enable`=1, `comment`='Eastern Zul\'Kunda Digsite' WHERE `id`=54;
