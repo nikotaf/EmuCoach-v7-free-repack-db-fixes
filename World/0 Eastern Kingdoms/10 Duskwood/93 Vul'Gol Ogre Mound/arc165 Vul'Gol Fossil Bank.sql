@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=165, `map`=0, `minSkill`=1, `minLevel`=20, `position_x`=-11013, `position_y`=-131, `position_z`=15, `enable`=1, `comment`='Vul\'Gol Fossil Bank' WHERE `id`=25;
