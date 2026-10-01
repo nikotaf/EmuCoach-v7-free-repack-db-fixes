@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=217, `map`=0, `minSkill`=1, `minLevel`=40, `position_x`=3360, `position_y`=-4915, `position_z`=159, `enable`=1, `comment`='Zul\'Mashar Digsite' WHERE `id`=51;
