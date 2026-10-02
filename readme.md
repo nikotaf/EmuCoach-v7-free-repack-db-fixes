@@ -44,15 +44,28 @@ The structure relies on the Map/Zone/Area of the issues. For instance, for quest
    ┗🗁AreaId ZoneName
      ┗ 🗎QuestId Quest title.sql
 ```
-and denotes the location of the quest giver.
+and denotes where the quest belongs to.
 
 Some generic issues, like flying/submerged mineral/herb nodes, portals/area triggers not working, npcs missing, loot table issues, would be stated as world fixes:
 ```
 🗁MapId MapName
  ┗🗁ZoneId AreaName
    ┗🗁AreaId ZoneName
-     ┗ 🗎c|g|i|arc|at#entry Name.sql
+     ┗ 🗎(c|g|i|lt|vt|arc|at|w)#dbKey Name.sql
 ```
+| key| reffers| db key | 
+|:-:|:-:|:--:|
+| c |     creature entry    | entry |
+| cg |              creature guid              | guid |
+| g| game object entry| entry |
+| gg |              game object guid              | guid |
+| i |      item      | entry |
+|   lt   |              loot table             | entry |
+|    vt   |                   vendor table                  | entry |
+|  arc |        archaeology        | entry |
+|   at   |              area trigger             | id |
+|    w    |                    world issue                   |  areaId  |
+
 Known server issues
 -
 The aforementioned server, has lots of issues, that are core relevant, intentionally or bad coded:
