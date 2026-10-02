@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=209, `map`=0, `minSkill`=1, `minLevel`=47, `position_x`=-6789, `position_y`=-1215, `position_z`=244, `enable`=1, `comment`='Pyrox Flats Digsite' WHERE `id`=47;
