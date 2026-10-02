@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=19, `map`=0, `minSkill`=1, `minLevel`=20, `position_x`=-2540, `position_y`=-2481, `position_z`=81, `enable`=1, `comment`='Thandol Span' WHERE `id`=7;
