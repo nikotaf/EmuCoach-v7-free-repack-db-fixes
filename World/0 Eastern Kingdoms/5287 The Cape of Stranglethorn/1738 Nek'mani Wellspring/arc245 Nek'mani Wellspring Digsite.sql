@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=245, `map`=0, `minSkill`=1, `minLevel`=30, `position_x`=-13847, `position_y`=440, `position_z`=89, `enable`=1, `comment`='Nek\'mani Wellspring Digsite' WHERE `id`=65;
