@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=331, `map`=1, `minSkill`=1, `minLevel`=50, `position_x`=-7832, `position_y`=-696, `position_z`=-258, `enable`=1, `comment`='Terror Run Fossil Field' WHERE `id`=96;
