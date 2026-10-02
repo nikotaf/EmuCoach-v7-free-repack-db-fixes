@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=18, `map`=0, `minSkill`=1, `minLevel`=25, `position_x`=-1809, `position_y`=-3295, `position_z`=28, `enable`=1, `comment`='Witherbark Digsite' WHERE `id`=6;
