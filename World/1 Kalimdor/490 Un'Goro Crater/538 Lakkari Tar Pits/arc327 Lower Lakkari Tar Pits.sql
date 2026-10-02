@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=327, `map`=1, `minSkill`=1, `minLevel`=50, `position_x`=-6678, `position_y`=-1401, `position_z`=-269, `enable`=1, `comment`='Lower Lakkari Tar Pits' WHERE `id`=94;
