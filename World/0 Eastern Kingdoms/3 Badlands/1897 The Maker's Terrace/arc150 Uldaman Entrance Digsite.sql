@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=150, `map`=0, `minSkill`=1, `minLevel`=44, `position_x`=-6064, `position_y`=-3257, `position_z`=259, `enable`=1, `comment`='Uldaman Entrance Digsite' WHERE `id`=20;
