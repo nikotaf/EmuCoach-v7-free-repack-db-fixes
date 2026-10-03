@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=219, `map`=0, `minSkill`=1, `minLevel`=40, `position_x`=3371, `position_y`=-4220, `position_z`=156, `enable`=1, `comment`='Quel\'Lithien Lodge Digsite' WHERE `id`=52;
