@@ -1,0 +1,1 @@
+UPDATE `research_sites` SET `entry`=26, `map`=0, `minSkill`=1, `minLevel`=30, `position_x`=-534, `position_y`=-3869, `position_z`=230, `enable`=1, `comment`='Jintha\'Alor Upper City Digsite' WHERE `id`=14;
