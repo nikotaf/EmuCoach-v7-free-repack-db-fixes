@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=221, `map`=0, `minSkill`=1, `minLevel`=40, `position_x`=2032, `position_y`=-4257, `position_z`=84, `enable`=1, `comment`='Infectis Scar Fossil Field' WHERE `id`=53;
