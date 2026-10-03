@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=231, `map`=0, `minSkill`=1, `minLevel`=25, `position_x`=-12684, `position_y`=-456, `position_z`=31, `enable`=1, `comment`='Ziata\'jai Digsite' WHERE `id`=58;
