@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=21, `map`=0, `minSkill`=1, `minLevel`=20, `position_x`=-362, `position_y`=-1047, `position_z`=41, `enable`=1, `comment`='Southshore Fossil Field' WHERE `id`=9;
