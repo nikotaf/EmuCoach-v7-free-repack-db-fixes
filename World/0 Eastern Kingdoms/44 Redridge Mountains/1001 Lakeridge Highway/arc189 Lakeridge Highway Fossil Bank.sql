@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=189, `map`=0, `minSkill`=1, `minLevel`=15, `position_x`=-9669, `position_y`=-2655, `position_z`=62, `enable`=1, `comment`='Lakeridge Highway Fossil Bank' WHERE `id`=37;
