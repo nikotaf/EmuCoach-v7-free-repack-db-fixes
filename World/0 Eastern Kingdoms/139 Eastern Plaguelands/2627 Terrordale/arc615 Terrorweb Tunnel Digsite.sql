@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=615, `map`=0, `minSkill`=1, `minLevel`=40, `position_x`=3073, `position_y`=-2855, `position_z`=108, `enable`=1, `comment`='Terrorweb Tunnel Digsite' WHERE `id`=186;
