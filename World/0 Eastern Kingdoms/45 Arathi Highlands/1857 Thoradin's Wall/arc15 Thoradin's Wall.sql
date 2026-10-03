@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=15, `map`=0, `minSkill`=1, `minLevel`=25, `position_x`=-659, `position_y`=-1760, `position_z`=55, `enable`=1, `comment`='Thoradin\'s Wall' WHERE `id`=5;
