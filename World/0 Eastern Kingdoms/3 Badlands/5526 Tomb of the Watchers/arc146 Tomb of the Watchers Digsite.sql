@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=146, `map`=0, `minSkill`=1, `minLevel`=44, `position_x`=-6880, `position_y`=-3408, `position_z`=242, `enable`=1, `comment`='Tomb of the Watchers Digsite' WHERE `id`=19;
