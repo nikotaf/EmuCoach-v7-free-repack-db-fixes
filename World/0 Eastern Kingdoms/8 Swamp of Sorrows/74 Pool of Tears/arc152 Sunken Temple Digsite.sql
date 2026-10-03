@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=152, `map`=0, `minSkill`=1, `minLevel`=52, `position_x`=-10604, `position_y`=-3781, `position_z`=13, `enable`=1, `comment`='Sunken Temple Digsite' WHERE `id`=21;
