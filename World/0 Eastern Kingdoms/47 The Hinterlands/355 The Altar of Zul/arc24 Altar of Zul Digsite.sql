@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=24, `map`=0, `minSkill`=1, `minLevel`=30, `position_x`=-227, `position_y`=-3392, `position_z`=147, `enable`=1, `comment`='Altar of Zul Digsite' WHERE `id`=12;
