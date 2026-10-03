@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=22, `map`=0, `minSkill`=1, `minLevel`=30, `position_x`=161, `position_y`=-2132, `position_z`=100, `enable`=1, `comment`='Aerie Peak Digsite' WHERE `id`=10;
