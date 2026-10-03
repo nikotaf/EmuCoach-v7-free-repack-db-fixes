@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=163, `map`=0, `minSkill`=1, `minLevel`=20, `position_x`=-10482, `position_y`=-429, `position_z`=45, `enable`=1, `comment`='Twilight Grove Digsite' WHERE `id`=24;
