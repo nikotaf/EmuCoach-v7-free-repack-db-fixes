@@ -1,0 +1,1 @@
+UPDATE `research_sites` SET `entry`=617, `map`=0, `minSkill`=1, `minLevel`=40, `position_x`=3086, `position_y`=-3747, `position_z`=134, `enable`=1, `comment`='Plaguewood Digsite' WHERE `id`=187;
