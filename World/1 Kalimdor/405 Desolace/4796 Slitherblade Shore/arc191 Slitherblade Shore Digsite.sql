@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=191, `map`=1, `minSkill`=1, `minLevel`=30, `position_x`=-467, `position_y`=2866, `position_z`=27, `enable`=1, `comment`='Slitherblade Shore Digsite' WHERE `id`=38;
