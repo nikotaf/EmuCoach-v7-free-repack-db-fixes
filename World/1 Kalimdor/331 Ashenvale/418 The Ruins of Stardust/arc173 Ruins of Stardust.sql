@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=173, `map`=1, `minSkill`=1, `minLevel`=20, `position_x`=2078, `position_y`=-232, `position_z`=97, `enable`=1, `comment`='Ruins of Stardust' WHERE `id`=29;
