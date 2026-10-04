@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=205, `map`=0, `minSkill`=1, `minLevel`=54, `position_x`=-11427, `position_y`=-2817, `position_z`=0, `enable`=1, `comment`='Dreadmaul Fossil Field' WHERE `id`=45;
