@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=289, `map`=1, `minSkill`=1, `minLevel`=35, `position_x`=-5128, `position_y`=920, `position_z`=155, `enable`=1, `comment`='Darkmist Digsite' WHERE `id`=76;
