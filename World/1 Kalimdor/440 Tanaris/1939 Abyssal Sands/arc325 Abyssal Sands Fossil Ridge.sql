@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=325, `map`=1, `minSkill`=1, `minLevel`=45, `position_x`=-7865, `position_y`=-3369, `position_z`=58, `enable`=1, `comment`='Abyssal Sands Fossil Ridge' WHERE `id`=93;
