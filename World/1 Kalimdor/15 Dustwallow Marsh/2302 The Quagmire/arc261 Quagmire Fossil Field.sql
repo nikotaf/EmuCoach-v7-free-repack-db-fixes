@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=261, `map`=1, `minSkill`=1, `minLevel`=35, `position_x`=-4036, `position_y`=-3522, `position_z`=31, `enable`=1, `comment`='Quagmire Fossil Field' WHERE `id`=70;
