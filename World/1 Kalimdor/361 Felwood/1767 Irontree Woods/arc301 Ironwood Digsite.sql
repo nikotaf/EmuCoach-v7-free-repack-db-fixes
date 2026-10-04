@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=301, `map`=1, `minSkill`=1, `minLevel`=45, `position_x`=6004, `position_y`=-1189, `position_z`=375, `enable`=1, `comment`='Ironwood Digsite' WHERE `id`=82;
