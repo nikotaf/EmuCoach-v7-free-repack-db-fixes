@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=144, `map`=0, `minSkill`=1, `minLevel`=44, `position_x`=-6431, `position_y`=-3385, `position_z`=230, `enable`=1, `comment`='Hammertoe\'s Digsite' WHERE `id`=18;
