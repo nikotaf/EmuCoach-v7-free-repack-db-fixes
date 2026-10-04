@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=285, `map`=1, `minSkill`=1, `minLevel`=35, `position_x`=-3119, `position_y`=1757, `position_z`=41, `enable`=1, `comment`='Oneiros Digsite' WHERE `id`=74;
