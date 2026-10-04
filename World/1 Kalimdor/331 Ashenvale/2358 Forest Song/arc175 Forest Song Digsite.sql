@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=175, `map`=1, `minSkill`=1, `minLevel`=20, `position_x`= 2905, `position_y`= -3191, `position_z`= 173, `enable`=1, `comment`='Forest Song Digsite' WHERE `id`=30;
