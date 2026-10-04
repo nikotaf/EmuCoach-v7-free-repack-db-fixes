@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=279, `map`=1, `minSkill`=1, `minLevel`=35, `position_x`=-3755, `position_y`=1094, `position_z`=131, `enable`=1, `comment`='Dire Maul Digsite' WHERE `id`=71;
