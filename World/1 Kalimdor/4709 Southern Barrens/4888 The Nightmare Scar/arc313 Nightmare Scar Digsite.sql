@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=313, `map`=1, `minSkill`=1, `minLevel`=30, `position_x`=-1712, `position_y`=-2231, `position_z`=94, `enable`=1, `comment`='Nightmare Scar Digsite' WHERE `id`=87;
