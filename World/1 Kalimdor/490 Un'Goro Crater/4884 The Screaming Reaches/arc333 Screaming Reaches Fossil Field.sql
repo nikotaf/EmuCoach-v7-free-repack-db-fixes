@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=333, `map`=1, `minSkill`=1, `minLevel`=50, `position_x`=-6722, `position_y`=-706, `position_z`=-272, `enable`=1, `comment`='Screaming Reaches Fossil Field' WHERE `id`=97;
