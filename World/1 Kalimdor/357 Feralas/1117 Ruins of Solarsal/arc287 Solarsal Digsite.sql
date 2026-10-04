@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=287, `map`=1, `minSkill`=1, `minLevel`=35, `position_x`=-4858, `position_y`=3530, `position_z`=23, `enable`=1, `comment`='Solarsal Digsite' WHERE `id`=75;
