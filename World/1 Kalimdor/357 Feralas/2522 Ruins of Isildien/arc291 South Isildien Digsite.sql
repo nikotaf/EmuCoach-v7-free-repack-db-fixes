@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=291, `map`=1, `minSkill`=1, `minLevel`=35, `position_x`=-4968, `position_y`=1191, `position_z`=55, `enable`=1, `comment`='South Isildien Digsite' WHERE `id`=77;
