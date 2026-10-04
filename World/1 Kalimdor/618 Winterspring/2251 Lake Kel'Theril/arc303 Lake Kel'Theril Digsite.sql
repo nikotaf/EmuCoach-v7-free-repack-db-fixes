@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=303, `map`=1, `minSkill`=1, `minLevel`=50, `position_x`=6510, `position_y`=-4056, `position_z`=658, `enable`=1, `comment`='Lake Kel\'Theril Digsite' WHERE `id`=83;
