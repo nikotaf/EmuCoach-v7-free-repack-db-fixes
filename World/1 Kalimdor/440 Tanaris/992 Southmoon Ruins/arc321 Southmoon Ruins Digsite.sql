@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=321, `map`=1, `minSkill`=1, `minLevel`=45, `position_x`=-9214, `position_y`=-3003, `position_z`=20, `enable`=1, `comment`='Southmoon Ruins Digsite' WHERE `id`=91;

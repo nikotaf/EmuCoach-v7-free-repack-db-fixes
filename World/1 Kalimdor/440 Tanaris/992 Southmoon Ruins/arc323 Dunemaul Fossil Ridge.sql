@@ -1,0 +1,1 @@
+UPDATE `research_sites` SET `entry`=323, `map`=1, `minSkill`=1, `minLevel`=45, `position_x`=-8911, `position_y`=-2935, `position_z`=41, `enable`=1, `comment`='Dunemaul Fossil Ridge' WHERE `id`=92;
