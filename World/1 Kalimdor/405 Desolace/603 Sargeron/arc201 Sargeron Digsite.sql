@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=201, `map`=1, `minSkill`=1, `minLevel`=30, `position_x`=-242, `position_y`=836, `position_z`=91, `enable`=1, `comment`='Sargeron Digsite' WHERE `id`=43;
