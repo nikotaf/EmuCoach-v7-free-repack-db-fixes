@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=243, `map`=0, `minSkill`=1, `minLevel`=30, `position_x`=-13073, `position_y`=325, `position_z`=24, `enable`=1, `comment`='Gurubashi Arena Digsite' WHERE `id`=64;
