@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=185, `map`=1, `minSkill`=1, `minLevel`=10, `position_x`=3484, `position_y`=-5180, `position_z`=82, `enable`=1, `comment`='Ruins of Eldarath' WHERE `id`=35;
