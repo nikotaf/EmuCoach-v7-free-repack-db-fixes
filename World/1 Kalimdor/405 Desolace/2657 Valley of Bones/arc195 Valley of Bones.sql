@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=195, `map`=1, `minSkill`=1, `minLevel`=30, `position_x`=-2239, `position_y`=1330, `position_z`=63, `enable`=1, `comment`='Valley of Bones' WHERE `id`=40;
