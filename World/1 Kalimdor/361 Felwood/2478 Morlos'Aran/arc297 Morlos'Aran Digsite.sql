@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=297, `map`=1, `minSkill`=1, `minLevel`=45, `position_x`=3793, `position_y`=-1622, `position_z`=219, `enable`=1, `comment`='Morlos\'Aran Digsite' WHERE `id`=80;
