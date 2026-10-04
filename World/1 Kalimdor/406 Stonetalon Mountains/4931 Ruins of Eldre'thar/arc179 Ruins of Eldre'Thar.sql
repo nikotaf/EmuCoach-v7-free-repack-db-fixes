@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=179, `map`=1, `minSkill`=1, `minLevel`=25, `position_x`=455, `position_y`=1049, `position_z`=114, `enable`=1, `comment`='Ruins of Eldre\'Thar' WHERE `id`=32;
