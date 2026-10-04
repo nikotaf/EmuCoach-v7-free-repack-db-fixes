@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=335, `map`=1, `minSkill`=1, `minLevel`=50, `position_x`=-7624, `position_y`=-1976, `position_z`=-272, `enable`=1, `comment`='Marshlands Fossil Bank' WHERE `id`=98;
