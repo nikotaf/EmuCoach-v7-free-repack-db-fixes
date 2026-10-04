@@ -1,0 +1,1 @@
+UPDATE `research_sites` SET `entry`=207, `map`=0, `minSkill`=1, `minLevel`=47, `position_x`=-7004, `position_y`=-1720, `position_z`=234, `enable`=1, `comment`='Grimeslit Digsite' WHERE `id`=46;
