@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=299, `map`=1, `minSkill`=1, `minLevel`=45, `position_x`=4791, `position_y`=-476, `position_z`=332, `enable`=1, `comment`='Jaedenar Digsite' WHERE `id`=81;
