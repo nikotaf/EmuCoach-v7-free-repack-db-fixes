@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=199, `map`=1, `minSkill`=1, `minLevel`=30, `position_x`=-1333, `position_y`=1832, `position_z`=50, `enable`=1, `comment`='Kodo Graveyard' WHERE `id`=42;
