@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=317, `map`=1, `minSkill`=1, `minLevel`=45, `position_x`=-7978, `position_y`=-3857, `position_z`=18, `enable`=1, `comment`='Broken Pillar Digsite' WHERE `id`=89;
