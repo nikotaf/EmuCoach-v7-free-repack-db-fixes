@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=259, `map`=1, `minSkill`=1, `minLevel`=35, `position_x`=-4626, `position_y`=-3492, `position_z`=31, `enable`=1, `comment`='Wyrmbog Fossil Field' WHERE `id`=69;
