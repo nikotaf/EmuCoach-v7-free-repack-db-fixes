@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=337, `map`=1, `minSkill`=1, `minLevel`=55, `position_x`=-7160, `position_y`=354, `position_z`=18, `enable`=1, `comment`='Southwind Village Digsite' WHERE `id`=99;
