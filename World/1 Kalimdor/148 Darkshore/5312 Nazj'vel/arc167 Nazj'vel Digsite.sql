@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=167, `map`=1, `minSkill`=1, `minLevel`=10, `position_x`=4601, `position_y`=910, `position_z`=40, `enable`=1, `comment`='Nazj\'vel Digsite' WHERE `id`=26;
