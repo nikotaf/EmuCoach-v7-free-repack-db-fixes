@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=193, `map`=1, `minSkill`=1, `minLevel`=30, `position_x`=-323, `position_y`=2421, `position_z`=28, `enable`=1, `comment`='Ethel Rethor Digsite' WHERE `id`=39;
