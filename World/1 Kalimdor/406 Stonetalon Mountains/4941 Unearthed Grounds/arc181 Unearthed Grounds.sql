@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=181, `map`=1, `minSkill`=1, `minLevel`=25, `position_x`=386, `position_y`=-613, `position_z`=33, `enable`=1, `comment`='Unearthed Grounds' WHERE `id`=33;
