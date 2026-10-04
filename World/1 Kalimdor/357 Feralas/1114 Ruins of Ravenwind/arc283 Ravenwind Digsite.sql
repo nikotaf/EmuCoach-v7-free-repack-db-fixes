@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=283, `map`=1, `minSkill`=1, `minLevel`=35, `position_x`=-2914, `position_y`=2688, `position_z`=74, `enable`=1, `comment`='Ravenwind Digsite' WHERE `id`=73;
