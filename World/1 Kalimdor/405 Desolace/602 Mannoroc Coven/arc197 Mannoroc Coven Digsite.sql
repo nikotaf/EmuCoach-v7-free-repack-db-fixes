@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=197, `map`=1, `minSkill`=1, `minLevel`=30, `position_x`=-1831, `position_y`=1894, `position_z`=60, `enable`=1, `comment`='Mannoroc Coven Digsite' WHERE `id`=41;
