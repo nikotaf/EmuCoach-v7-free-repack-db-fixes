@@ -1,1 +1,1 @@
-
+UPDATE `research_sites` SET `entry`=187, `map`=1, `minSkill`=1, `minLevel`=10, `position_x`=4192, `position_y`=-7288, `position_z`=19, `enable`=1, `comment`='Ruins of Arkkoran' WHERE `id`=36;
