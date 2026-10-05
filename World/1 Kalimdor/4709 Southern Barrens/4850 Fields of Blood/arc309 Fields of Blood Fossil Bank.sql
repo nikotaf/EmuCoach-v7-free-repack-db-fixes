@@ -1,0 +1,1 @@
+UPDATE `research_sites` SET `entry`=309, `map`=1, `minSkill`=1, `minLevel`=30, `position_x`=-1970, `position_y`=-1988, `position_z`=92, `enable`=1, `comment`='Fields of Blood Fossil Bank' WHERE `id`=86;

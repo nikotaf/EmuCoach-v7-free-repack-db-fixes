@@ -66,6 +66,8 @@ Some generic issues, like flying/submerged mineral/herb nodes, portals/area trig
 |   at   |              area trigger             | id |
 |    w    |                    world issue                   |  areaId  |
 
+For events, achievements, professions, battlegrounds etc., they will be placed under their folder.
+
 Known server issues
 -
 The aforementioned server, has lots of issues, that are core relevant, intentionally or bad coded:

@@ -1,0 +1,4 @@
+UPDATE `quest_template` SET `MinLevel`= 30 WHERE `Id` IN
+	(3526,3629,3630,3632,3633,3635,3637,3639,3641,3643,4181,29475,29476,29477);
+UPDATE `quest_template` SET `RequiredSkillPoints`= 200 WHERE `Id` IN
+	(29475,29476,29477);
