@@ -1,0 +1,1 @@
+UPDATE `research_sites` SET `entry`=307, `map`=1, `minSkill`=1, `minLevel`=50, `position_x`=5251, `position_y`=-4784, `position_z`=690, `enable`=1, `comment`='Frostwhisper Gorge Digsite' WHERE `id`=85;

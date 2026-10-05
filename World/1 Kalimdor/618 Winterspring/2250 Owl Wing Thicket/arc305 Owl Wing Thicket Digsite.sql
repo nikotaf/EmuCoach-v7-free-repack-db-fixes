@@ -1,0 +1,1 @@
+UPDATE `research_sites` SET `entry`=305, `map`=1, `minSkill`=1, `minLevel`=50, `position_x`=5620, `position_y`=-4944, `position_z`=811, `enable`=1, `comment`='Owl Wing Thicket Digsite' WHERE `id`=84;

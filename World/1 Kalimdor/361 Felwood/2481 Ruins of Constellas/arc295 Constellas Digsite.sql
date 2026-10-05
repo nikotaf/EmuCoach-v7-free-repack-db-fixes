@@ -1,0 +1,1 @@
+UPDATE `research_sites` SET `entry`=295, `map`=1, `minSkill`=1, `minLevel`=45, `position_x`=4508, `position_y`=-529, `position_z`=294, `enable`=1, `comment`='Constellas Digsite' WHERE `id`=79;

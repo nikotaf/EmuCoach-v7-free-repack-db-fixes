@@ -1,0 +1,1 @@
+UPDATE `research_sites` SET `entry`=281, `map`=1, `minSkill`=1, `minLevel`=35, `position_x`=-4526, `position_y`=1324, `position_z`=117, `enable`=1, `comment`='Broken Commons Digsite' WHERE `id`=72;
