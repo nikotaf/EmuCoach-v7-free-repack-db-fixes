@@ -1,1 +1,1 @@
-This file contains fixes related to achievements.
+This folder contains fixes related to achievements.

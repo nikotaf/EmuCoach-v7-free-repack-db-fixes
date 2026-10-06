@@ -1,0 +1,1 @@
+DELETE FROM `gameobject` WHERE `guid`=17692 AND `id`=177198;

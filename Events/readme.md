@@ -1,1 +1,1 @@
-This file contains fixes related to events.
+This folder contains fixes related to events.

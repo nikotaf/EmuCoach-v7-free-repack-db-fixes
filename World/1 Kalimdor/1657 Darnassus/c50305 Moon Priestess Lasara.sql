@@ -1,0 +1,2 @@
+INSERT INTO `creature` (`id`, `map`, `zone`, `area`, `spawnMask`, `phaseMask`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `MovementType`, `npcflag`, `unit_flags`, `dynamicflags`, `walkmode`) VALUES
+	(50305, 1, 1657, 1657, 1, 1, 0, 0, 9966.62, 2629.92, 1316.54, 4.79264, 90, 0, 0, 2136, 5751, 0, 0, 134217728, 0, 0);

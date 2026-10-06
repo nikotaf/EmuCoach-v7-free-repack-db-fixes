@@ -1,0 +1,1 @@
+UPDATE `smart_scripts` SET `event_type`= 54, `action_param1`= 0, `comment`= 'Pusillin - On just summoned - Self: Set event phase to 0 (Phase 0) (No Repeat) (Normal Dungeon)' WHERE `entryorguid`=14354 AND `source_type`=0 AND `id`=0 AND `link`=0;
