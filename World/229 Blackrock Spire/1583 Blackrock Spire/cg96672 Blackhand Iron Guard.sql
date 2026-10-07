@@ -1,0 +1,1 @@
+UPDATE `creature_addon` SET `auras`= NULL WHERE `guid`=96672;

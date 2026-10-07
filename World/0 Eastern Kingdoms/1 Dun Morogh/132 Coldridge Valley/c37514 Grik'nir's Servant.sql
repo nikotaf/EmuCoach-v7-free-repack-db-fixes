@@ -1,0 +1,1 @@
+UPDATE `creature_template` SET `faction_A`= 190, `faction_H`= 190, `npcflag`= 0 WHERE `entry`=37514;

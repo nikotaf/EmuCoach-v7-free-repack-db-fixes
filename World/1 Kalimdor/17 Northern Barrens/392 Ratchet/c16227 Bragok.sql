@@ -1,0 +1,1 @@
+UPDATE `creature_template` SET `npcflag`|= 1, `AIName`= 'SmartAI' WHERE `entry`=16227;

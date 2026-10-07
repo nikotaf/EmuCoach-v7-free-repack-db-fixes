@@ -1,0 +1,3 @@
+UPDATE `conditions` SET `ConditionValue2`= 16|32|64|128 WHERE `SourceTypeOrReferenceId`=23 AND `SourceGroup`=12944 AND `ConditionTypeOrReference`=5 AND `ConditionValue1`=59 AND `ConditionValue2`=16;
+UPDATE `conditions` SET `ConditionValue2`= 32|64|128 WHERE `SourceTypeOrReferenceId`=23 AND `SourceGroup`=12944 AND `ConditionTypeOrReference`=5 AND `ConditionValue1`=59 AND `ConditionValue2`=32;
+UPDATE `conditions` SET `ConditionValue2`= 64|128 WHERE `SourceTypeOrReferenceId`=23 AND `SourceGroup`=12944 AND `ConditionTypeOrReference`=5 AND `ConditionValue1`=59 AND `ConditionValue2`=64;
