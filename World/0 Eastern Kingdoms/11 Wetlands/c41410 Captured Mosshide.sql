@@ -1,0 +1,10 @@
+UPDATE `creature` SET `orientation`= 2.768533 WHERE `guid`=172191 AND `id`=41410;
+UPDATE `creature` SET `orientation`= 2.391538 WHERE `guid`=172192 AND `id`=41410;
+UPDATE `creature` SET `position_z`= 9.66, `orientation`= 1.535452 WHERE `guid`=172193 AND `id`=41410;
+UPDATE `creature` SET `position_z`= 9.396064, `orientation`= 4.983358 WHERE `guid`=172194 AND `id`=41410;
+UPDATE `creature` SET `position_z`= 9.187114, `orientation`= 6.075058 WHERE `guid`=172195 AND `id`=41410;
+UPDATE `creature` SET `position_z`= 9.21273, `orientation`= 4.150839 WHERE `guid`=172196 AND `id`=41410;
+UPDATE `creature` SET `position_z`= 9.669139, `orientation`= 3.282975 WHERE `guid`=172197 AND `id`=41410;
+UPDATE `creature` SET `position_z`= 10.613103, `orientation`= 5.662726 WHERE `guid`=172198 AND `id`=41410;
+UPDATE `creature` SET `orientation`= 1.395989 WHERE `guid`=172200 AND `id`=41410;
+UPDATE `creature` SET `orientation`= 3.954481 WHERE `guid`=172201 AND `id`=41410;

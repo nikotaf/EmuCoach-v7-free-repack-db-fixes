@@ -1,0 +1,3 @@
+DELETE FROM `spell_scripts` WHERE `id`=42644 AND `command`=10 AND `datalong`=23928;
+INSERT INTO `creature` (`id`, `map`, `zone`, `area`, `spawnMask`, `phaseMask`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `MovementType`, `npcflag`, `unit_flags`, `dynamicflags`, `walkmode`) VALUES
+	(23928, 1, 15, 517, 1, 1, 0, 23928, -4256.005, -3914.8208, -8.853431, 6.091929, 300, 0, 0, 1336, 0, 0, 0, 0, 0, 0);

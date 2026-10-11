@@ -1,0 +1,3 @@
+INSERT INTO `creature` (`guid`, `id`, `map`, `zone`, `area`, `spawnMask`, `phaseMask`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `MovementType`, `npcflag`, `unit_flags`, `dynamicflags`, `walkmode`) VALUES
+	(188180, 36616, 654, 4714, 4714, 1, 1, 0, 36616, -1287.57, 2099.94, 5.23105, 2.61799, 120, 0, 0, 2080, 205, 0, 0, 0, 0, 0);
+DELETE FROM `creature_template_addon` WHERE `entry`=36616;
