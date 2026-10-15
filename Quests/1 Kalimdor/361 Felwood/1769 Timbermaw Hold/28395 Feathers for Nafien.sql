@@ -1,0 +1,11 @@
+UPDATE `quest_template` SET `SpecialFlags`= 1 WHERE `Id`=28395;
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`= 29 WHERE `entry`=7153 AND `item`=21377;
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`= 27 WHERE `entry`=7154 AND `item`=21377;
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`= 26 WHERE `entry`=7155 AND `item`=21377;
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`= 49 WHERE `entry`=7156 AND `item`=21377;
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`= 48 WHERE `entry`=7157 AND `item`=21377;
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`= 49 WHERE `entry`=7158 AND `item`=21377;
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`= 39 WHERE `entry`=9462 AND `item`=21377;
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`= 39 WHERE `entry`=9464 AND `item`=21377;
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`= 39 WHERE `entry`=14342 AND `item`=21377;
+DELETE FROM `conditions` WHERE `SourceTypeOrReferenceId`=1 AND `SourceGroup` IN (7153,7154,7155,7156,7157,7158,9462,9464,14342) AND `SourceEntry`=21377 AND `SourceId`=0 AND `ElseGroup`=0 AND `ConditionTypeOrReference`=8 AND `ConditionTarget`=0 AND `ConditionValue1`=8460 AND `ConditionValue2`=0 AND `ConditionValue3`=0;

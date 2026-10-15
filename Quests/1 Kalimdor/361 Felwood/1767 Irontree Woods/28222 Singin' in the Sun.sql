@@ -1,0 +1,15 @@
+UPDATE `creature_questrelation` SET `id`= 48042 WHERE `id`=48032 AND `quest`=28222;
+UPDATE `gameobject_template` SET `data5`= 90 WHERE `entry`=207063;
+INSERT INTO `spell_dbc` (`Id`, `Attributes`, `AttributesEx`, `AttributesEx2`, `AttributesEx3`, `AttributesEx4`, `AttributesEx5`, `AttributesEx6`, `AttributesEx7`, `AttributesEx8`, `AttributesEx9`, `AttributesEx10`, `CastingTimeIndex`, `DurationIndex`, `powerType`, `rangeIndex`, `SchoolMask`, `runeCostID`, `SpellDifficultyId`, `SpellCoef`, `SpellScalingId`, `SpellAuraOptionsId`, `SpellAuraRestrictionsId`, `SpellCastingRequirementsId`, `SpellCategoriesId`, `SpellClassOptionsId`, `SpellCooldownsId`, `SpellEquippedItemsId`, `SpellInterruptsId`, `SpellLevelsId`, `SpellPowerId`, `SpellReagentsId`, `SpellShapeshiftId`, `SpellTargetRestrictionsId`, `SpellTotemsId`) VALUES
+	(89572, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+SET @ENTRY := 48042;
+DELETE FROM smart_scripts WHERE entryOrGuid = @ENTRY AND source_type = 0;
+UPDATE creature_template SET AIName="SmartAI", ScriptName="" WHERE entry=@ENTRY;
+INSERT INTO smart_scripts (entryorguid, source_type, id, link, event_type, event_phase_mask, event_chance, event_flags, event_param1, event_param2, event_param3, event_param4, action_type, action_param1, action_param2, action_param3, action_param4, action_param5, action_param6, target_type, target_param1, target_param2, target_param3, target_x, target_y, target_z, target_o, comment) VALUES
+	(@ENTRY, 0, 0, 0, 19, 0, 100, 0, 28224, 0, 0, 0, 86, 89357, 2, 23, 0, 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, "On player accepted quest 28224 - Owner/Summoner: Cast spell Summon Fluorishing Protector (89357) with flags triggered at Owner/Summoner"),
+	(@ENTRY, 0, 1, 2, 76, 0, 100, 0, 0, 207063, 10, 5000, 33, 48200, 0, 0, 0, 0, 0, 23, 0, 0, 0, 0, 0, 0, 0, "When gameobject Shaft of Sunlight (207063) in range 10 (check every 5 seconds) - Owner/Summoner: Give kill credit Sunbeam Credit (48200)"),
+	(@ENTRY, 0, 2, 3, 61, 0, 100, 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0, 20, 207063, 10, 0, 0, 0, 0, 0, "When gameobject Shaft of Sunlight (207063) in range 10 (check every 5 seconds) - Closest gameobject Shaft of Sunlight (207063) in 10 yards: Activate gameobject"),
+	(@ENTRY, 0, 3, 4, 61, 0, 100, 0, 0, 0, 0, 0, 32, 0, 0, 0, 0, 0, 0, 20, 207063, 10, 0, 0, 0, 0, 0, "When gameobject Shaft of Sunlight (207063) in range 10 (check every 5 seconds) - Closest gameobject Shaft of Sunlight (207063) in 10 yards: Reset (gameobject)"),
+	(@ENTRY, 0, 4, 5, 61, 0, 100, 0, 0, 0, 0, 0, 41, 500, 0, 0, 0, 0, 0, 20, 207063, 10, 0, 0, 0, 0, 0, "When gameobject Shaft of Sunlight (207063) in range 10 (check every 5 seconds) - Closest gameobject Shaft of Sunlight (207063) in 10 yards: Despawn in 0.5 s"),
+	(@ENTRY, 0, 5, 0, 61, 0, 100, 0, 0, 0, 0, 0, 11, 89590, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, "When gameobject Shaft of Sunlight (207063) in range 10 (check every 5 seconds) - Self: Cast spell Bathed in Light (89590) on Self");
+DELETE FROM conditions WHERE SourceTypeOrReferenceId = 22 AND SourceEntry = @ENTRY AND SourceId = 0;

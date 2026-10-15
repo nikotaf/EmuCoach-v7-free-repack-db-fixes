@@ -51,7 +51,7 @@ Some generic issues, like flying/submerged mineral/herb nodes, portals/area trig
 🗁MapId MapName
  ┗🗁ZoneId AreaName
    ┗🗁AreaId ZoneName
-     ┗ 🗎(c|g|i|lt|vt|arc|at|w)#dbKey Name.sql
+     ┗ 🗎(c|g|i|lt|vt|dr|arc|at|w)#dbKey Name.sql
 ```
 | key| reffers| db key | 
 |:-:|:-:|:--:|
@@ -62,6 +62,7 @@ Some generic issues, like flying/submerged mineral/herb nodes, portals/area trig
 | i |      item      | entry |
 |   lt   |              loot table             | entry |
 |    vt   |                   vendor table                  | entry |
+|   dr   |              drop rate             |    entry   |
 |  arc |        archaeology        | entry |
 |   at   |              area trigger             | id |
 |    w    |                    world issue                   |  areaId  |
@@ -83,6 +84,12 @@ The aforementioned server, has lots of issues, that are core relevant, intention
 	+ **q**12855 Sniffing Out the Perpetrator
 	+ **q**28058 Look at the Size of It!
 	+ **q**26925|**q**27164 Araj the Summoner
+
+- Some quests can not be turned in when the objectives are fulfilled.
+	- **q**28362 Stupid Drizle!
+	- **q**25841 Strike From Above
+	- **q**29353 Keepin' the Haggis Flowin
+	- **q**29352 A Fowl Shortage
 
 Disclaimer
 -

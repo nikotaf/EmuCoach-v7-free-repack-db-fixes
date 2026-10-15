@@ -1,0 +1,1 @@
+UPDATE `quest_template` SET `Flags`= 1310728 WHERE `Id`=28061;

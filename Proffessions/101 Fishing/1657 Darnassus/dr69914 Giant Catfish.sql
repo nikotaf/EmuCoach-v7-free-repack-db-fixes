@@ -1,0 +1,1 @@
+UPDATE `fishing_loot_template` SET `ChanceOrQuestChance`= -1.174241 WHERE `entry`=1657 AND `item`=69914;

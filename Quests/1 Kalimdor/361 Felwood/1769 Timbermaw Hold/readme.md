@@ -1,0 +1,1 @@
+Same as 2479 Emerald Sanctuary/q28396 Feathers for Grazle.

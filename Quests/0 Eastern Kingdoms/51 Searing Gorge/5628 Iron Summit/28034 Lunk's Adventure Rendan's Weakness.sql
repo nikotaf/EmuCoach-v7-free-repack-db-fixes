@@ -1,0 +1,1 @@
+UPDATE `quest_template` SET `RequiredNpcOrGoCount1`= 3 WHERE `Id`=28034;

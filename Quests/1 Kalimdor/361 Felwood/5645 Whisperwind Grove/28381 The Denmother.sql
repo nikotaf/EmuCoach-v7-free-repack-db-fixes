@@ -1,0 +1,2 @@
+INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `SourceId`, `ElseGroup`, `ConditionTypeOrReference`, `ConditionTarget`, `ConditionValue1`, `ConditionValue2`, `ConditionValue3`, `NegativeCondition`, `ErrorType`, `ErrorTextId`, `ScriptName`, `Comment`) VALUES
+	(15, 12428, 2, 0, 0, 9, 0, 28381, 0, 0, 0, 0, 0, '', 'Gossip 12428 option 2 - When quest 28381 is taken');

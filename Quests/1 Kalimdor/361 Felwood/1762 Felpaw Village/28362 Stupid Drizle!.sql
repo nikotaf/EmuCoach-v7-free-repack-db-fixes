@@ -1,0 +1,5 @@
+UPDATE `creature` SET `map`=1, `zone`=361, `area`=1762, `spawnMask`=1, `phaseMask`=1, `modelid`=0, `equipment_id`=0, `position_x`=6852, `position_y`=-1875.09, `position_z`=551.01, `orientation`=4.05523, `spawntimesecs`=90, `spawndist`=0, `currentwaypoint`=0, `curhealth`=1848, `curmana`=0, `MovementType`=0, `npcflag`=0, `unit_flags`=0, `dynamicflags`=0, `walkmode`=0 WHERE `guid`=49670 AND `id`=47556;
+INSERT INTO `creature` (`guid`, `id`, `map`, `zone`, `area`, `spawnMask`, `phaseMask`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `spawndist`, `currentwaypoint`, `curhealth`, `curmana`, `MovementType`, `npcflag`, `unit_flags`, `dynamicflags`, `walkmode`) VALUES
+	(609780, 37162, 1, 361, 1762, 1, 1, 0, 0, 6851.501953, -1870.337402, 551.567810, 4.325408, 120, 0, 0, 1, 0, 0, 0, 0, 0, 0);
+UPDATE `smart_scripts` SET `event_phase_mask`= 1 WHERE `entryorguid`=47556 AND `source_type`=0 AND `id`=0 AND `link`=0;
+UPDATE `smart_scripts` SET `event_flags`= 0, `event_param1`= 0, `event_param2`= 0 WHERE `entryorguid`=47556 AND `source_type`=0 AND `id`=1 AND `link`=0;
